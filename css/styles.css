@@ -595,7 +595,7 @@ input::-webkit-input-placeholder {
 
 @media screen and (max-width:1024px) {
   .overlay-text {
-    top: 70%;
+    top: 60%;
   }
 
   .informacion {
@@ -636,7 +636,7 @@ input::-webkit-input-placeholder {
   }
 
   .overlay-text {
-    top: 70%;
+    top: 60%;
   }
 
   .nuestros-servicios {
@@ -690,7 +690,7 @@ input::-webkit-input-placeholder {
   }
 
   .overlay-text {
-    top: 80%;
+    top: 60%;
   }
 
   .cards-personalizadas {
