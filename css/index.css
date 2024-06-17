@@ -61,7 +61,7 @@ nav li:hover{
 }
 
 .navbar-toggler{
-  background-color: white !important;
+  background-color:grey !important;
 }
 
 .banner video {
@@ -567,7 +567,7 @@ input::-webkit-input-placeholder {
 
 @media screen and (max-width:1024px){
   .overlay-text{
-    top: 65%;
+    top: 70%;
   }
 
   .informacion{
@@ -594,10 +594,18 @@ input::-webkit-input-placeholder {
     padding: 10px;
     text-align: left;
   }
+
+  .card-personalizada-producto img{
+    width: 230px;
+  }
 }
 
 
 @media screen and (max-width:768px){
+
+  .overlay-text{
+    top: 70%;
+  }
   .nuestros-servicios{
     padding: 10px;
   }
@@ -633,6 +641,14 @@ input::-webkit-input-placeholder {
 }
 
 @media screen and (max-width:480px){
+
+  .encabezado img{
+    width: 200px;
+  }
+
+  .overlay-text{
+    top: 70%;
+  }
   .cards-personalizadas{
     display: flex;
     flex-direction: column;
@@ -643,7 +659,12 @@ input::-webkit-input-placeholder {
     text-align: left;
   }
 
+  .card-personalizada-producto img{
+    width: 350px;
+  }
+
   .banner-nosotros img{
     height: 40vh;
   }
+
 }
