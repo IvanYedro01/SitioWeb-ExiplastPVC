@@ -564,6 +564,16 @@ input::-webkit-input-placeholder {
   flex-direction: row;
 }
 
+@media (prefers-color-scheme: dark){
+  .encabezado{
+    background-color: white;
+  }
+
+  .contenedor-logo-tubos{
+    background-color: white;
+  }
+}
+
 @media screen and (max-width:1468px) {
   .productos-destacados {
     display: flex;
