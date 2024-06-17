@@ -1,0 +1,649 @@
+
+@font-face {
+  font-family: "poppins";
+  src: url(../assets/Poppins-SemiBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62, 5%;
+}
+
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.encabezado img {
+  width: 300px;
+  align-items: center;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  color: white;
+  align-items: center;
+  font-family: "poppins";
+}
+
+nav li:hover{
+  background-color: #8CD93F;
+}
+
+.nav-personalizado {
+  background-color: #0C172B;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iconos-redes{
+  display: flex;
+  flex-direction: row;
+  background-color: #0C172B;
+  justify-content: flex-end;
+}
+.iconos-redes img{
+  width: 24px;
+  height: 24px;
+}
+
+.navbar-toggler{
+  background-color: white !important;
+}
+
+.banner video {
+  height: 60vh;
+  object-fit: cover;
+  border-style: hidden;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+
+.video-container {
+  width: 100%;
+  height: 60vh;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  color: #8CD93F;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400; /* Medium */
+  
+
+}
+
+
+.cards-personalizadas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "poppins";
+}
+
+.seccion-cards {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: #0C172B;
+}
+
+.seccion-cards h2{
+  color: #8CD93F;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; /* Medium */
+  font-size: 40px;
+}
+
+.card-style {
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  margin: 10px;
+  font-family: "poppins";
+  font-size: 1.2rem;
+}
+
+.card1, .card3 {
+  border: 3px solid #8CD93F;
+  color: white;
+}
+.card2 {
+  background-color:#8CD93F ;
+  color: #0C172B;
+  border: 3px solid #0C172B;
+}
+.card1:hover, .card3:hover{
+  transform: translateY(-12px);
+  box-shadow: 0 20px 16px rgba(0, 0, 0, 0.2);
+  background-color:#8CD93F ;
+  color: #0C172B;
+  border: 3px solid #0C172B;
+}
+
+.card2:hover{
+  border: 3px solid #8CD93F;
+  color: white;
+  background-color:#0C172B ;
+  transform: translateY(-12px);
+  box-shadow: 0 20px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card1 img, .card2 img, .card3 img{
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+}
+
+.card1 h3, .card2 h3, .card3 h3{
+  margin: 20px 0px;
+}
+
+.nuestros-servicios {
+  padding: 150px 200px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 2px solid #8CD93F;
+}
+
+.nuestros-servicios-div{
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 40px 5px #0C172B ;
+  padding: 40px;
+}
+
+
+.nuestros-servicios h2 {
+  color: #0C172B;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; /* Medium */
+  font-size: 40px;
+}
+
+.nuestros-servicios p {
+  line-height: 2;
+  font-family: "poppins";
+  font-size: 1.2rem;
+}
+
+.productos-destacados {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around ;
+  padding: 100px 40px;
+  background-color: #0C172B;
+  color: white;
+}
+
+.productos-destacados h2{
+  color: #8CD93F;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; /* Medium */
+  font-size: 40px;
+}
+
+.card{
+  width: 350px;
+  border: 2px solid #8CD93F !important;
+  background-color: #0C172B !important;
+}
+
+.card h3, .card p{
+  color: white;
+}
+
+.card img{
+  width: 340px;
+  height: 300px;
+  border-radius: 30%;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 50px;
+  line-height: 2;
+  font-family: "poppins";
+  font-size: 1.2rem;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center ;
+  background-color: #0C172B;
+  border: 2px solid #8CD93F;  
+  padding: 40px;
+  font-family: "poppins";
+  font-size: 1.2rem;
+}
+
+.informacion-acerca {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: justify;
+  margin-left: 20px;
+  line-height: 2;
+  width: 33%;
+}
+
+.informacion-acerca h4, .informacion-contacto h4, .informacion-links h4{
+  color: #8CD93F;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; /* Medium */
+  font-size: 30px;
+}
+
+.informacion-links {
+  text-align: center;
+  color: white;
+  width: 33%;
+  line-height: 1 ;
+  }
+
+  .navegacion-final a{
+    text-align: center;
+    color: white;
+
+  }
+
+.informacion-contacto {
+  text-align: center;
+  color: white;
+  width: 33%;
+}
+
+
+/*Seccion widget Wpp*/
+
+#whatsapp-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--verde);
+  color: var(--blanco);
+  border-radius: 10%;
+  cursor: pointer;
+  width: 100px;
+}
+
+/*Seccion footer*/
+footer {
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+.logo-footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.logo-footer img {
+  width: 150px;
+}
+
+.logo-footer h5 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.developer-footer {
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*Seccion formulario*/
+
+.form {
+  max-inline-size: 550px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  padding-inline-start: .5em;
+}
+
+.form label span {
+  color: #DA1414;
+}
+
+.form input, .form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1rem;
+  padding: .8em;
+  border-radius: .5em;
+  border: 1px solid #858C94;
+}
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
+}
+
+input::-webkit-input-placeholder {
+  color: #0F0A0A88;
+}
+
+.btn-enviar{
+  background-color: #0C172B;
+  color: #8CD93F;
+  font-size: 20x;
+  border-radius: 10%;
+  width: 150px;
+  height: 80px;
+}
+
+.btn-enviar:hover{
+  background-color: #8CD93F;
+  color: #0C172B;
+}
+
+
+.contacto {
+  margin-block-end: 5em;
+}
+
+.contacto h1{
+  text-align: center;
+  font-weight: 300; /* Medium */
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: #0C172B;
+  margin: 40px 0px 20px 0px;
+}
+
+.contacto h3{
+  margin-top: 50px;
+}
+
+.contacto h3{
+  font-size: 1rem;
+}
+
+
+#destino {
+  opacity: 0;
+}
+
+.nosotros{
+  padding: 80px;
+  background-color: #0C172B;
+}
+
+.introduccion h1{
+  font-size: 40px;
+  color: #8CD93F;
+  text-align: left;
+}
+
+.introduccion h2, .mision h3, .vision h3{
+  font-weight: 300; /* Medium */
+  font-size: 30px;
+  color: #8CD93F;
+  margin: 40px 0px 20px 0px;
+
+}
+
+.introduccion p, .mision p, .vision p{
+  font-size: 20px;
+  justify-content: center;
+  text-align: justify;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+
+
+.banner-nosotros img{
+  width: 100%;
+  height: 70vh;
+}
+
+.introduccion h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/*Seccion de galeria de fotos*/
+.titulo-productos h1{
+  text-align: center;
+  margin: 50px 0px 30px 0px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; /* Medium */
+  font-size: 40px;
+  color: #0C172B;
+}
+
+.card-personalizada-producto img{
+  border-radius: 30px;
+  width: 200px;
+  height: 350px;
+}
+
+.ventajas{
+  font-size: 20px;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0C172B;
+}
+
+.ventajas li{
+  padding-top: 40px;
+  align-items: center;
+  color: white;
+}
+
+.ventajas h2{
+  color: #8CD93F;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; /* Medium */
+  font-size: 40px;
+}
+
+
+.medidas-productos{
+  text-align: center;
+  text-decoration:underline;
+  color: black;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+
+.medidas-productos h3{
+  padding-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; /* Medium */
+  font-size: 40px;
+}
+
+.card-personalizada-producto img{
+  width: 400px;
+}
+
+.orden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.accordion{
+ margin: 80px;
+ padding-bottom: 50px;
+}
+
+.contenedor-logo-tubos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contenedor-logo-tubos img{
+  width: 150px;
+}
+
+.texto-card{
+  text-align: center;
+}
+
+.lista img{
+  width: 100%;
+}
+
+.productos-demandados{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width:1468px) {
+  .productos-destacados{
+    display: flex;
+    flex-direction: column;
+  }
+  .productos-demandados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .texto{
+    width: 100%;
+  }
+
+  .texto p{
+    margin-top: 20px;
+  }
+
+  .card-personalizada-producto img{
+    width: 300px;
+  }
+
+  .lista img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .overlay-text{
+    top: 65%;
+  }
+
+  .informacion{
+    font-size: 1rem;
+  }
+
+  .informacion-acerca{
+    margin: 0px;
+    text-align: left;
+  }
+
+  .card-personalizada-producto img{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width:834px){
+  .informacion{
+    font-size: 0.8rem;
+  }
+
+  .informacion-acerca{
+    width: 40%;
+    padding: 10px;
+    text-align: left;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .nuestros-servicios{
+    padding: 10px;
+  }
+
+  .productos-demandados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .informacion{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .informacion-acerca, .informacion-contacto, .informacion-links{
+    width: 60%;
+    text-align: center;
+  }
+
+  .card-personalizada-producto img{
+    width: 400px;
+  }
+
+  .banner-nosotros img{
+    height: 50vh;
+  }
+
+  .contacto-personalizado{
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .cards-personalizadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduccion p, .mision p, .vision p{
+    text-align: left;
+  }
+
+  .banner-nosotros img{
+    height: 40vh;
+  }
+}
