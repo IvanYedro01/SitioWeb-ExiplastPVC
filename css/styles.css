@@ -618,10 +618,6 @@ input::-webkit-input-placeholder {
   .card-personalizada-producto img {
     width: 250px;
   }
-
-  .lista img {
-    width: 55%;
-  }
 }
 
 @media screen and (max-width:834px) {
