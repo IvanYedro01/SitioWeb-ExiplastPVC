@@ -525,6 +525,7 @@ input::-webkit-input-placeholder {
   font-size: 40px;
 }
 
+
 .card-personalizada-producto img {
   width: 400px;
 }
@@ -556,7 +557,7 @@ input::-webkit-input-placeholder {
 }
 
 .lista img {
-  width: 100%;
+  width: 75%;
 }
 
 .productos-demandados {
@@ -599,7 +600,7 @@ input::-webkit-input-placeholder {
   }
 
   .lista img {
-    width: 100%;
+    width: 65%;
   }
 }
 
@@ -620,6 +621,10 @@ input::-webkit-input-placeholder {
   .card-personalizada-producto img {
     width: 250px;
   }
+
+  .lista img {
+    width: 55%;
+  }
 }
 
 @media screen and (max-width:834px) {
@@ -635,6 +640,10 @@ input::-webkit-input-placeholder {
 
   .card-personalizada-producto img {
     width: 230px;
+  }
+
+  .lista img {
+    width: 50%;
   }
 }
 
@@ -729,6 +738,10 @@ input::-webkit-input-placeholder {
 
   .developer-footer h5 {
     font-size: 1rem;
+  }
+
+  .lista img {
+    width: 40%;
   }
 
 }
