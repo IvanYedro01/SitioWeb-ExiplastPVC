@@ -557,7 +557,7 @@ input::-webkit-input-placeholder {
 }
 
 .lista img {
-  width: 75%;
+  width: 85%;
 }
 
 .productos-demandados {
@@ -599,9 +599,6 @@ input::-webkit-input-placeholder {
     width: 300px;
   }
 
-  .lista img {
-    width: 65%;
-  }
 }
 
 @media screen and (max-width:1024px) {
@@ -642,9 +639,6 @@ input::-webkit-input-placeholder {
     width: 230px;
   }
 
-  .lista img {
-    width: 50%;
-  }
 }
 
 
@@ -738,10 +732,6 @@ input::-webkit-input-placeholder {
 
   .developer-footer h5 {
     font-size: 1rem;
-  }
-
-  .lista img {
-    width: 40%;
   }
 
 }
