@@ -21,6 +21,32 @@
   gtag('js', new Date());
 
   gtag('config', 'G-W1VVVD31JF');
+  gtag('config', 'AW-388115331');
+</script>
+
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-388115331/kdPVCMWHzagcEIPXiLkB',
+    'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W1VVVD31JF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W1VVVD31JF');
 </script>
 
 <body>
@@ -54,9 +80,14 @@
             </li>
           </ul>
           <div class="iconos-redes">
-            <a href="https://wa.me/1553242777" target="_blank"><img src="../img/whatsapp.png" alt="WhatsApp"></a>
-        
-            <a href="https://www.instagram.com/exiplast.pvc/" target="_blank"><img src="../img/social.png" alt="Instagram"></a>
+            <a href="https://wa.me/1553242777" target="_blank"
+              onclick="return gtag_report_conversion('https://wa.me/1553242777')">
+              <img src="../img/whatsapp.png" alt="WhatsApp">
+            </a>
+          
+            <a href="https://www.instagram.com/exiplast.pvc/" target="_blank">
+              <img src="../img/social.png" alt="Instagram">
+            </a>
           </div>
         </div>
       </div>
